@@ -1,0 +1,9 @@
+﻿# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: css
+Disallow: fonts
+Disallow: images
+Disallow: js
+Disallow: resources
+Sitemap: http://mschmelzer1745ex4b.azurewebsites.net/sitemap.xml
