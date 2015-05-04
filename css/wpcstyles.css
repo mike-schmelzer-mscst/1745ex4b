@@ -86,6 +86,38 @@ h1 {
 	-moz-border-top-right-radius: 1.5em;
     border-top-right-radius: 1.5em;
 
+  	-webkit-border-bottom-left-radius: 1.5em;
+	-moz-border-bottom-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+  	-webkit-border-bottom-right-radius: 1.5em;
+	-moz-border-bottom-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+/*.page-top-round {
+    background-color: #F0D79E; 
+    padding-top: 15px; 
+    border: 5px solid #50341F;
+  	-webkit-border-top-left-radius: 1.5em;
+	-moz-border-top-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+  	-webkit-border-top-right-radius: 1.5em;
+	-moz-border-top-right-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+
+}*/
+.inner-page-round {
+    border: 5px solid #51351F; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    -webkit-border-top-right-radius: 1.5em; 
+    -moz-border-top-right-radius: 1.5em; 
+    border-top-right-radius: 1.5em; 
+    -webkit-border-bottom-right-radius: 1.5em; 
+    -moz-border-bottom-right-radius: 1.5em; 
+    border-bottom-right-radius: 1.5em; 
+    -webkit-border-bottom-left-radius: 1.5em;
+    -moz-border-bottom-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
 }
 h3 {
     color: #663300;
@@ -320,21 +352,22 @@ footer {
 }
 /* ---------------- Nav Tabs --------------------- */
 .nav-tabs {
-    border-bottom: 1px solid #51351F;
+  /*border-bottom: 1px solid #51351F;*/
 }
 .nav-tabs > li {
-    float: left;
-    margin-bottom: -1px;
+  float: left;
+  margin-bottom: -1px;
 }
 .nav-tabs > li > a {
+  background-color: #51351F;
   margin-right: 2px;
   line-height: 1.42857143;
   border: 1px solid transparent;
-  border-radius: 14px 14px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 
 .nav-tabs > li {
-    background-color: #51351F;
+    /*background-color: #51351F;*/
     color: white;
 }
 .nav-tabs > li > a {
@@ -351,8 +384,7 @@ footer {
   cursor: default;
   background-color: #884502;
   border: 1px solid #F0D79E;
-  border-bottom-color: #ddd;
-  /*border-bottom-color: transparent;*/
+  border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {
   width: 100%;
@@ -387,24 +419,13 @@ footer {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
-/* Info button styles (contact page) */
-.btn-info {
-  color: #fff;
-  /* Original background-color: #5bc0de;
-  border-color: #46b8da;*/  
-  background-color: #884502;
-  border-color: #080808;
+/*.flex-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flexbox;
+	margin: 1em 0;
+	border: 1px solid white;*/
+	/*-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;*/
 }
-.btn-info:hover,
-.btn-info:focus,
-.btn-info.focus,
-.btn-info:active,
-.btn-info.active,
-.open > .dropdown-toggle.btn-info {
-  color: #fff;
-  /*Original background-color: #31b0d5;
-  border-color: #269abc;*/
-  background-color: #884502;
-  border-color: #080808;
-}
-
